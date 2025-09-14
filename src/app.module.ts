@@ -8,9 +8,10 @@ import { EmployeeModule } from './employee/employee.module';
 import { StudentController } from './student/student.controller';
 import { StudentService } from './student/student.service';
 import { StudentModule } from './student/student.module';
+import { CustomersModule } from './customers/customers.module';
 
 @Module({
-  imports: [EmployeeModule, StudentModule],
+  imports: [EmployeeModule, StudentModule, CustomersModule],
   controllers: [AppController, UserController, ProductController, StudentController],
   providers: [AppService, ProductService, StudentService],
 })
