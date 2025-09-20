@@ -1,5 +1,6 @@
 export default interface customerInterface{
     id:number,
     name:string,
-    age:number
+    age:number,
+    Description:string
 }
